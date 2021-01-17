@@ -1,5 +1,6 @@
 # windowsPWexpirationEmail
-Problem: With remote environment, the users' PCs are unable to tell when their passwords are expiring. Users often call the helpdesk after their passwords have expired.
+Problem:
+- With remote environment, the users' PCs are unable to tell when their passwords are expiring. Users often call the helpdesk after their passwords have expired.
 
 Solution: 
 - A powershell script that looks for all AD users' Windows password expiration dates, sending an email notification to those expiring in 7 days, 3 days, and 1 day. 
